@@ -27,7 +27,7 @@
       const output = document.getElementById('output');
       
       if (magicEarthInput === "") {
-        alert("Please paste the Magic Earth link or shared text to convert!");
+        alert("Please paste the Magic Earth link to convert!");
         return;
       }
 
@@ -46,7 +46,7 @@
           output.innerHTML = `<a href="${googleMapsLink}" target="_blank">${googleMapsLink}</a>
           <button class="copy-button" onclick="copyLink('${googleMapsLink}')">Copy link</button>`;
         } else {
-          output.innerText = "No latitude and longitude found in the text.";
+          output.innerText = "The link provided is incorrect, please check.";
         }
       }
     }
