@@ -22,10 +22,6 @@ With this simple web tool, you can take a Magic Earth link and convert it to a G
 * Easy to use and intuitive interface
 * No need to create an account or log in
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
 ## Contributing
 
 Contributions are welcome! If you have any ideas or bug fixes, please submit a pull request.
@@ -46,4 +42,6 @@ To use the Magic Earth to Google Maps Converter, please visit our website at htt
 
 I hope this helps!
 
+## License
 
+MIT
