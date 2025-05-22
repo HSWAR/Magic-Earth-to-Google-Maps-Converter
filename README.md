@@ -37,6 +37,7 @@ Contributions are welcome! If you have any ideas or bug fixes, please submit a p
 
 ## Alternative Conversion Options
 If you want to convert a Google Maps link to Magic Earth or other maps, you can try the Geo Share app.
+
 Download link:
 [Geo Share on F-Droid](https://f-droid.org/packages/page.ooooo.geoshare/)
 
