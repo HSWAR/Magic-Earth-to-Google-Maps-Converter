@@ -44,7 +44,7 @@
           output.innerHTML = `<a href="${googleMapsLink}" target="_blank">${googleMapsLink}</a>
           <button class="copy-button" onclick="copyLink('${googleMapsLink}')">Copy link</button>`;
         } else {
-          output.innerText = "No latitude and longitude found in the text.";
+          output.innerText = "No latitude and longitude found in the link or it is not a Magic Earth link.";
         }
       }
     }
