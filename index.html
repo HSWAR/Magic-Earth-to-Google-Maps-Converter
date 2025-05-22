@@ -7,6 +7,7 @@
 <body>
 
   <div class="container">
+   <h1>Welcome to the Magic Earth to Google Maps Converter</h1>
     <!-- Input field for Magic Earth link or text -->
     <input id="inputId" type="text" placeholder="Paste the Magic Earth shared link or entire text">
     
@@ -15,6 +16,7 @@
     
     <!-- Output div to display the converted Google Maps link -->
     <div id="output">Google Maps link will be displayed here</div>
+    <p>Check out the source code on <a href="https://github.com/RR4-24/Magic-Earth-to-Google-Maps-Converter.git" target="_blank">GitHub</a>.</p>
   </div>
 
   <script>
@@ -44,7 +46,7 @@
           output.innerHTML = `<a href="${googleMapsLink}" target="_blank">${googleMapsLink}</a>
           <button class="copy-button" onclick="copyLink('${googleMapsLink}')">Copy link</button>`;
         } else {
-          output.innerText = "The link provided is incorrect, please check.";
+          output.innerText = "No latitude and longitude found in the text.";
         }
       }
     }
@@ -57,4 +59,3 @@
   </script>
 </body>
 </html>
-
