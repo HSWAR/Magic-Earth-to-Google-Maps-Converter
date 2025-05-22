@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  text-align: center; /* Center text inside the container */
+}
+
+#inputId, #buttonId, #output {
+  width: 100%;
+  max-width: 600px; /* Limit the maximum width for larger screens */
+  height: 40px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#buttonId {
+  background-color: #4643C3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#buttonId:hover {
+  background-color: #201555;
+}
+
+#output {
+  background-color: #fff;
+}
+
+#output a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+#output a:hover {
+  color: #3e8e41;
+}
+
+.copy-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.copy-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  #inputId, #buttonId, #output {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #inputId, #buttonId, #output {
+    font-size: 14px; /* Smaller font size for very small screens */
+    height: 35px; /* Adjust height for smaller screens */
+  }
+}
+
