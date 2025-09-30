@@ -7,20 +7,21 @@
 <body>
 
   <div class="container">
-   <h1>Welcome to the Magic Earth to Google Maps Converter</h1>
+   <h1>Welcome to Magic Earth to Google Maps Converter</h1>
     <!-- Input field for Magic Earth link or text -->
-    <input id="inputId" type="text" placeholder="Paste the Magic Earth shared link or entire text">
-    
+    <input id="inputId" type="text" placeholder="Paste either the Magic Earth shared link, entire text or the coordinates">
+
     <!-- Button to trigger the conversion -->
-    <button id="buttonId" onclick="fetchText()">Convert link to Google Maps</button>
-    
+    <button id="MEbuttonId" onclick="fetchText()">Convert to Google Maps link</button>
+
     <!-- Output div to display the converted Google Maps link -->
-    <div id="output">Google Maps link will be displayed here</div>
-    <p>Check out the source code on <a href="https://github.com/RR4-24/Magic-Earth-to-Google-Maps-Converter.git" target="_blank">GitHub</a>.</p>
+    <input id="output" type="text" placeholder="Google Maps link will be displayed here" readonly/>
+    <div id="copyButtonContainer"></div>
+    <p>Check out the source code on <a href="https://github.com/HSWAR/Magic-Earth-to-Google-Maps-Converter.git" target="_blank">GitHub</a>.</p>
   </div>
 
   <!-- Link to the external JavaScript file -->
-    <script src="script.js"></script>
-  
+    <script src="script_ME.js"></script>
+
 </body>
 </html>
