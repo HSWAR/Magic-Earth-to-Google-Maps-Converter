@@ -38,7 +38,7 @@ Download link:
 [Geo Share on F-Droid](https://f-droid.org/packages/page.ooooo.geoshare/)
 
 ## Visit the Magic Earth to Google Maps Converter
-To use the Magic Earth to Google Maps Converter, please visit our website at https://rr4-24.github.io/Magic-Earth-to-Google-Maps-Converter/
+To use the Magic Earth to Google Maps Converter, please visit our website at https://hswar.github.io/Magic-Earth-to-Google-Maps-Converter/
 
 I hope this helps!
 
